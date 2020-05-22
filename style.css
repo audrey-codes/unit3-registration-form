@@ -87,6 +87,11 @@ textarea {
   text-align: right;
 }
 
+input:focus {
+  border: 2px ridge #283643;
+  transform: scale(1.07,1.07);
+}
+
 option {
   padding: 10px;
   font-size: 20px;
