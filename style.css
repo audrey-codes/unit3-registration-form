@@ -1,0 +1,33 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  color: #283643;
+}
+
+h1 {
+  background: #283643;
+  color: #fff;
+}
+
+button {
+  background: #4ebbb5;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-family: 'Merriweather', serif;
+  width: 100%;
+  padding: 20px 40px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  border: 2px solid #48afab;
+  border-radius: 5px;
+  box-shadow: 0 -2px 0 rgba(255, 255, 255, 0.1) inset;
+}
