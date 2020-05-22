@@ -91,10 +91,15 @@ input:focus {
   border: 2px inset #4ebbb5;
   background: #a5dbdb;
   transform: scale(1.07,1.07);
+  transition: all .09s;
 }
 
 input:focus::placeholder {
   color: #fff;
+}
+
+select:hover {
+  background: #a5dbdb;
 }
 
 option {
@@ -144,6 +149,21 @@ button {
 
 @media (min-width: 768px) {
 
+  form {
+    max-width: 768px;
+  }
 
+  fieldset {
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+  legend {
+    margin: 20px 0;
+  }
+
+  button {
+    width: 100%;
+  }
 
 }
