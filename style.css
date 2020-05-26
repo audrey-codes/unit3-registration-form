@@ -166,4 +166,23 @@ button {
     width: 100%;
   }
 
+  .element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    flex-basis: 375px;
+  }
+
+  input[id="zip-code"] {
+    max-width: 225px;
+    margin-right: 150px;
+  }
+
 }
