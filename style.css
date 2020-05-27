@@ -97,11 +97,8 @@ input:focus::placeholder {
   color: #fff;
 }
 
-select:hover {
-  background: #a5dbdb;
-}
-
 option {
+  color: #a4a8aa;
   padding: 10px;
   font-size: 20px;
   font-weight: 300;
@@ -111,7 +108,7 @@ option {
 label {
   display: inline-block;
   line-height: 1.5em;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
 option[value=""] {
@@ -186,7 +183,7 @@ button {
   }
 
 .news-options {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
   .options {
