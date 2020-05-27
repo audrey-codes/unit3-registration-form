@@ -71,7 +71,7 @@ textarea {
   font-weight: 700;
   font-family: 'Merriweather', serif;
   border-radius: 5px;
-  width: 100%;
+  width: 350px;
   height: auto;
   border: none;
   outline: 0;
@@ -110,10 +110,17 @@ option {
 }
 
 label {
-  display: block;
+  display: inline-block;
   margin-top: 15px;
   margin-bottom: 5px;
   line-height: 1.5em;
+}
+
+option[value=""] {
+  color: #a4a8aa;
+  font-weight: 300;
+  font-family: 'Merriweather', serif;
+  text-align: right;
 }
 
 input[type="checkbox"],
@@ -128,7 +135,7 @@ button {
   text-align: center;
   font-weight: 700;
   font-family: 'Merriweather', serif;
-  width: 350px;
+  width: 100%;
   padding: 20px 45px;
   margin-top: 45px;
   border: 2px solid #48afab;
